@@ -1,0 +1,49 @@
+{
+    assimp = {
+        license = "BSD-3-Clause",
+        envs = {
+            PATH = {
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45\bin]],
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\c\cmake\3.24.2\5430022e3acc47008f94857b498c53c6\bin]],
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\z\zlib\v1.2.13\04bf9d8a64824100b68e5c59e579eda6\bin]]
+            }
+        },
+        __requirestr = "assimp",
+        linkdirs = {
+            [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45\lib]],
+            [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\z\zlib\v1.2.13\04bf9d8a64824100b68e5c59e579eda6\lib]]
+        },
+        libfiles = {
+            [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45\lib\assimp-vc143-mt.lib]],
+            [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45\lib\zlibstatic.lib]],
+            [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\z\zlib\v1.2.13\04bf9d8a64824100b68e5c59e579eda6\lib\zlib.lib]]
+        },
+        links = {
+            "assimp-vc143-mt",
+            "zlibstatic",
+            "zlib"
+        },
+        sysincludedirs = {
+            [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45\include]],
+            [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\z\zlib\v1.2.13\04bf9d8a64824100b68e5c59e579eda6\include]]
+        },
+        static = true,
+        installdir = [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45]],
+        version = "v5.2.5",
+        syslinks = "advapi32",
+        __enabled = true
+    },
+    nlohmann_json = {
+        license = "MIT",
+        sysincludedirs = [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.2\d18ecf552d7148eeb73c26c13078fb10\include]],
+        version = "v3.11.2",
+        installdir = [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.2\d18ecf552d7148eeb73c26c13078fb10]],
+        envs = {
+            PATH = {
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.2\d18ecf552d7148eeb73c26c13078fb10\bin]]
+            }
+        },
+        __requirestr = "nlohmann_json",
+        __enabled = true
+    }
+}

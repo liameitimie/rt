@@ -1,0 +1,5 @@
+﻿  $xmake config -y  -P . -p windows -m debug -a x64 -o "build"
+  $xmake build -y  -P . -w "rt"
+  [ 50%]: compiling.debug rtBVH.cu
+  rtBVH.cu
+  [100%]: build ok!

@@ -1,0 +1,10 @@
+{
+    cmdlines = {
+        "xmake -w",
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\explorer.lua]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\config.lua]],
+        "xmake -w",
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\default_target.lua]],
+        "xmake run"
+    }
+}

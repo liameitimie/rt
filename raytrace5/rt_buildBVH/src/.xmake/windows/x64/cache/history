@@ -1,0 +1,12 @@
+{
+    cmdlines = {
+        "xmake project -k vsxmake -m debug;release",
+        "xmake project -k vsxmake -m debug;release",
+        "xmake project -k vsxmake",
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.5\assets\explorer.lua]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.5\assets\config.lua]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.5\assets\explorer.lua]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.5\assets\explorer.lua]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.5\assets\config.lua]]
+    }
+}

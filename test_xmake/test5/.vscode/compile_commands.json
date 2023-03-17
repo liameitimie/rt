@@ -1,0 +1,6 @@
+[
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\test_xmake\\test5",
+  "arguments": ["C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc.exe", "-c", "-I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\include\"", "-m64", "-rdc=true", "-gencode", "arch=compute_75,code=sm_75", "-gencode", "arch=compute_35,code=compute_35", "-o", "build\\.objs\\test5\\windows\\x64\\src\\main.cu.obj", "src\\main.cu"],
+  "file": "src\\main.cu"
+}]

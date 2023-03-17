@@ -1,0 +1,14 @@
+{
+    "shapes":[
+        {
+            "tag": "shape",
+            "impl": "mesh",
+            "file": "asset/models/Mesh013.obj"
+        },
+        {
+            "tag": "shape",
+            "impl": "mesh",
+            "file": "asset/models/Mesh008.obj"
+        }
+    ]
+}

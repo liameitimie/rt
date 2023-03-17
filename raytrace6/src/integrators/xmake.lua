@@ -1,0 +1,5 @@
+target("integrator-path")
+    set_kind("shared")
+    add_files("path.cpp")
+    add_deps("base")
+target_end()

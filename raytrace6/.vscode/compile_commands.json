@@ -1,0 +1,46 @@
+[
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\raytrace6",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.base.pdb", "/Od", "/std:c++20", "/Isrc\\base", "/Isrc\\accel", "/Isrc\\util", "/EHsc", "/IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\n\\nlohmann_json\\v3.11.2\\d18ecf552d7148eeb73c26c13078fb10\\include", "/Fobuild\\.objs\\base\\windows\\x64\\debug\\src\\base\\pipeline.cpp.obj", "src\\base\\pipeline.cpp"],
+  "file": "src\\base\\pipeline.cpp"
+},
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\raytrace6",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.base.pdb", "/Od", "/std:c++20", "/Isrc\\base", "/Isrc\\accel", "/Isrc\\util", "/EHsc", "/IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\n\\nlohmann_json\\v3.11.2\\d18ecf552d7148eeb73c26c13078fb10\\include", "/Fobuild\\.objs\\base\\windows\\x64\\debug\\src\\base\\scene.cpp.obj", "src\\base\\scene.cpp"],
+  "file": "src\\base\\scene.cpp"
+},
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\raytrace6",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.base.pdb", "/Od", "/std:c++20", "/Isrc\\base", "/Isrc\\accel", "/Isrc\\util", "/EHsc", "/IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\n\\nlohmann_json\\v3.11.2\\d18ecf552d7148eeb73c26c13078fb10\\include", "/Fobuild\\.objs\\base\\windows\\x64\\debug\\src\\base\\scene_node.cpp.obj", "src\\base\\scene_node.cpp"],
+  "file": "src\\base\\scene_node.cpp"
+},
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\raytrace6",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.accel.pdb", "/Od", "/std:c++20", "/Isrc\\accel", "/Isrc\\util", "/EHsc", "/Fobuild\\.objs\\accel\\windows\\x64\\debug\\src\\accel\\accel.cpp.obj", "src\\accel\\accel.cpp"],
+  "file": "src\\accel\\accel.cpp"
+},
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\raytrace6",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.rt.pdb", "/Od", "/std:c++20", "/Isrc\\base", "/Isrc\\accel", "/Isrc\\util", "/EHsc", "/IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\n\\nlohmann_json\\v3.11.2\\d18ecf552d7148eeb73c26c13078fb10\\include", "/Fobuild\\.objs\\rt\\windows\\x64\\debug\\src\\rt.cpp.obj", "src\\rt.cpp"],
+  "file": "src\\rt.cpp"
+},
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\raytrace6",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.shape-mesh.pdb", "/Od", "/std:c++20", "/Isrc\\shapes", "/IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\include", "/Isrc\\base", "/Isrc\\accel", "/Isrc\\util", "/EHsc", "/IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\a\\assimp\\v5.2.5\\5428fc7ba30140e390565669b6cddb45\\include", "/IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\z\\zlib\\v1.2.13\\04bf9d8a64824100b68e5c59e579eda6\\include", "/IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\n\\nlohmann_json\\v3.11.2\\d18ecf552d7148eeb73c26c13078fb10\\include", "/Fobuild\\.objs\\shape-mesh\\windows\\x64\\debug\\src\\shapes\\mesh.cpp.obj", "src\\shapes\\mesh.cpp"],
+  "file": "src\\shapes\\mesh.cpp"
+},
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\raytrace6",
+  "arguments": ["C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc.exe", "-c", "-g", "-lineinfo", "-Xcompiler", "-FS -Zi -Fdbuild\\windows\\x64\\debug\\compile.shape-mesh.pdb", "-O0", "-Isrc\\shapes", "-I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\include\"", "-Isrc\\base", "-Isrc\\accel", "-Isrc\\util", "-IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\a\\assimp\\v5.2.5\\5428fc7ba30140e390565669b6cddb45\\include", "-IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\z\\zlib\\v1.2.13\\04bf9d8a64824100b68e5c59e579eda6\\include", "-IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\n\\nlohmann_json\\v3.11.2\\d18ecf552d7148eeb73c26c13078fb10\\include", "-m64", "-rdc=true", "-o", "build\\.objs\\shape-mesh\\windows\\x64\\debug\\src\\shapes\\mesh.cu.obj", "src\\shapes\\mesh.cu"],
+  "file": "src\\shapes\\mesh.cu"
+},
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\raytrace6",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.integrator-path.pdb", "/Od", "/std:c++20", "/Isrc\\base", "/Isrc\\accel", "/Isrc\\util", "/EHsc", "/IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\n\\nlohmann_json\\v3.11.2\\d18ecf552d7148eeb73c26c13078fb10\\include", "/Fobuild\\.objs\\integrator-path\\windows\\x64\\debug\\src\\integrators\\path.cpp.obj", "src\\integrators\\path.cpp"],
+  "file": "src\\integrators\\path.cpp"
+},
+{
+  "directory": "c:\\Cpp\\graphics\\Learning\\cuda\\raytrace\\raytrace6",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.camera-pinhole.pdb", "/Od", "/std:c++20", "/Isrc\\base", "/Isrc\\accel", "/Isrc\\util", "/EHsc", "/IC:\\Users\\Liameitimie\\AppData\\Local\\.xmake\\packages\\n\\nlohmann_json\\v3.11.2\\d18ecf552d7148eeb73c26c13078fb10\\include", "/Fobuild\\.objs\\camera-pinhole\\windows\\x64\\debug\\src\\cameras\\pinhole.cpp.obj", "src\\cameras\\pinhole.cpp"],
+  "file": "src\\cameras\\pinhole.cpp"
+}]

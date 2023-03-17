@@ -1,0 +1,3 @@
+checking for Microsoft Visual Studio (x64) version ... 2022
+[ 50%]: linking.debug b.dll
+[100%]: build ok!

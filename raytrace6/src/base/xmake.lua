@@ -1,0 +1,10 @@
+add_requires("nlohmann_json")
+
+target("base")
+    set_kind("shared")
+    add_includedirs(".",{public=true})
+    add_files("*.cpp")
+    add_deps("util")
+    add_deps("accel")
+    add_packages("nlohmann_json",{public=true})
+target_end()

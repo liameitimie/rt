@@ -1,0 +1,12 @@
+{
+    recheck = false,
+    options = {
+        arch = "x64",
+        plat = "windows",
+        buildir = [[c:\C++\graphics\Learning\cuda\raytrace\test_xmake\test3/build]],
+        mode = "release"
+    },
+    mtimes = {
+        ["xmake.lua"] = 1674999182
+    }
+}

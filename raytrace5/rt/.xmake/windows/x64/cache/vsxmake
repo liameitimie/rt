@@ -1,0 +1,4 @@
+{
+    outputdir = ".",
+    kind = "vsxmake"
+}

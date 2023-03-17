@@ -1,0 +1,16 @@
+[
+{
+  "directory": "c:\\C++\\graphics\\Learning\\cuda\\raytrace\\test_xmake\\test4",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/EHsc", "/Fobuild\\.objs\\test\\windows\\x64\\debug\\test.cpp.obj", "test.cpp"],
+  "file": "test.cpp"
+},
+{
+  "directory": "c:\\C++\\graphics\\Learning\\cuda\\raytrace\\test_xmake\\test4",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/EHsc", "/Fobuild\\.objs\\b\\windows\\x64\\debug\\b\\b1.cpp.obj", "b\\b1.cpp"],
+  "file": "b\\b1.cpp"
+},
+{
+  "directory": "c:\\C++\\graphics\\Learning\\cuda\\raytrace\\test_xmake\\test4",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/EHsc", "/Fobuild\\.objs\\a\\windows\\x64\\debug\\a\\a.cpp.obj", "a\\a.cpp"],
+  "file": "a\\a.cpp"
+}]

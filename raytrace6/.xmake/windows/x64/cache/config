@@ -1,0 +1,19 @@
+{
+    options = {
+        plat = "windows",
+        buildir = [[c:\Cpp\graphics\Learning\cuda\raytrace\raytrace6/build]],
+        mode = "debug",
+        arch = "x64"
+    },
+    recheck = false,
+    mtimes = {
+        ["xmake.lua"] = 1676132396,
+        ["src\\base\\xmake.lua"] = 1677413035,
+        ["src\\util\\xmake.lua"] = 1677413339,
+        ["src\\accel\\xmake.lua"] = 1677413090,
+        ["src\\integrators\\xmake.lua"] = 1677085355,
+        ["src\\cameras\\xmake.lua"] = 1676715515,
+        ["src\\shapes\\xmake.lua"] = 1677155579,
+        ["src\\xmake.lua"] = 1676715537
+    }
+}

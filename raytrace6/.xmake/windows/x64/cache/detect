@@ -1,0 +1,253 @@
+{
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags__-FS -Fd"] = true,
+        ["windows_x64_C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc_11.7_cu_cuflags__-MD -MF"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags__-std:c++20"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags__cl_external_includedir"] = true,
+        ["windows_x64_C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc_11.7_cu_cuflags__-Xcompiler \"-Zi -FS -Fd\""] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags__cl_sourceDependencies"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe__cxx___-Od"] = true,
+        ["windows_x64_C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc_11.7_cu_cuflags__-rdc=true"] = true,
+        ["windows_x64_C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc_11.7_cu___-O0"] = true
+    },
+    find_program_fetch_package_xmake = {
+        cmake = [[C:\Program Files\CMake\bin\cmake]]
+    },
+    find_program_fetch_package_system = {
+        cmake = [[C:\Program Files\CMake\bin\cmake]]
+    },
+    find_programver_fetch_package_system = {
+        ["C:\\Program Files\\CMake\\bin\\cmake"] = "3.24.1"
+    },
+    ["detect.tools.nvcc.has_flags"] = {
+        ["C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc_11.7"] = {
+            ["--archive-options"] = true,
+            ["--help"] = true,
+            ["--machine"] = true,
+            ["--dopt"] = true,
+            ["--undefine-macro"] = true,
+            ["--forward-unknown-to-host-compiler"] = true,
+            ["--diag-error"] = true,
+            ["--gpu-architecture"] = true,
+            ["--compile-as-tools-patch"] = true,
+            ["--libdevice-directory"] = true,
+            ["--compiler-options"] = true,
+            ["--fatbin"] = true,
+            ["--list-gpu-arch"] = true,
+            ["-o"] = true,
+            ["--clean-targets"] = true,
+            ["--archiver-binary"] = true,
+            ["--no-host-device-move-forward"] = true,
+            ["--include-path"] = true,
+            ["--cubin"] = true,
+            ["--options-file"] = true,
+            ["--m64"] = true,
+            ["--Werror"] = true,
+            ["--display-error-number"] = true,
+            ["--forward-unknown-opts"] = true,
+            ["--ptxas-options"] = true,
+            ["--dependency-target-name"] = true,
+            ["--extra-device-vectorization"] = true,
+            ["--list-gpu-code"] = true,
+            ["--ftemplate-backtrace-limit"] = true,
+            ["--dlink-time-opt"] = true,
+            ["--use-local-env"] = true,
+            ["--pre-include"] = true,
+            ["--lib"] = true,
+            ["--run"] = true,
+            ["--profile"] = true,
+            ["--compiler-bindir"] = true,
+            ["--x"] = true,
+            ["--verbose"] = true,
+            ["--keep"] = true,
+            ["--device-link"] = true,
+            ["--no-device-link"] = true,
+            ["--version-ident"] = true,
+            ["--lto"] = true,
+            ["--no-host-device-initializer-list"] = true,
+            ["--gpu-code"] = true,
+            ["--objdir-as-tempdir"] = true,
+            ["--target-directory"] = true,
+            ["--restrict"] = true,
+            ["--ftemplate-depth"] = true,
+            ["--time"] = true,
+            ["--cudadevrt"] = true,
+            ["--disable-warnings"] = true,
+            ["--input-drive-prefix"] = true,
+            ["--drive-prefix"] = true,
+            ["--threads"] = true,
+            ["-forward-unknown-to-host-compiler"] = true,
+            ["-forward-unknown-opts"] = true,
+            ["-dlink"] = true,
+            ["--device-debug"] = true,
+            ["--default-stream"] = true,
+            ["--diag-warn"] = true,
+            ["-gencode"] = true,
+            ["--generate-dependencies-with-compile"] = true,
+            ["--debug"] = true,
+            ["--system-include"] = true,
+            ["--output-file"] = true,
+            ["--generate-line-info"] = true,
+            ["--optix-ir"] = true,
+            ["--library"] = true,
+            ["--std"] = true,
+            ["--no-align-double"] = true,
+            ["--ptx"] = true,
+            ["-dlto"] = true,
+            ["--prec-sqrt"] = true,
+            ["--cuda"] = true,
+            ["--optimization-info"] = true,
+            ["--source-in-ptx"] = true,
+            ["--device-c"] = true,
+            ["--linker-options"] = true,
+            ["--extensible-whole-program"] = true,
+            ["--resource-usage"] = true,
+            ["--ftz"] = true,
+            ["-forward-unknown-to-host-linker"] = true,
+            ["--dont-use-profile"] = true,
+            ["--relocatable-device-code"] = true,
+            ["--link"] = true,
+            ["--expt-relaxed-constexpr"] = true,
+            ["--shared"] = true,
+            ["--no-compress"] = true,
+            ["--entries"] = true,
+            ["--library-path"] = true,
+            ["--generate-code"] = true,
+            ["-dw"] = true,
+            ["--diag-suppress"] = true,
+            ["--generate-dependency-targets"] = true,
+            ["--compile"] = true,
+            ["--m32"] = true,
+            ["--nvlink-options"] = true,
+            ["--Wext-lambda-captures-this"] = true,
+            ["--define-macro"] = true,
+            ["--output-directory"] = true,
+            ["--generate-dependencies"] = true,
+            ["--run-args"] = true,
+            ["--optimize"] = true,
+            ["--allow-unsupported-compiler"] = true,
+            ["--Wno-deprecated-declarations"] = true,
+            ["--no-exceptions"] = true,
+            ["-bar"] = true,
+            ["--Wdefault-stream-launch"] = true,
+            ["--device-w"] = true,
+            ["--keep-dir"] = true,
+            ["-code"] = true,
+            ["--forward-unknown-to-host-linker"] = true,
+            ["--prec-div"] = true,
+            ["--save-temps"] = true,
+            ["-lineinfo"] = true,
+            ["-MF"] = true,
+            ["-dc"] = true,
+            ["--Wno-deprecated-gpu-targets"] = true,
+            ["--maxrregcount"] = true,
+            ["--expt-extended-lambda"] = true,
+            ["--version"] = true,
+            ["--fmad"] = true,
+            ["--Wreorder"] = true,
+            ["--extended-lambda"] = true,
+            ["--preprocess"] = true,
+            ["--no-display-error-number"] = true,
+            ["--cudart"] = true,
+            ["--dryrun"] = true,
+            ["--Wmissing-launch-bounds"] = true,
+            ["--keep-device-functions"] = true,
+            ["--dependency-output"] = true,
+            ["-arch"] = true,
+            ["--dependency-drive-prefix"] = true
+        }
+    },
+    find_programver = {
+        ["C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc"] = "11.7",
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe"] = false
+    },
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::nlohmann_json_d18ecf552d7148eeb73c26c13078fb10_release_v3.11.2_external"] = {
+            version = "v3.11.2",
+            sysincludedirs = {
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\n\nlohmann_json\v3.11.2\d18ecf552d7148eeb73c26c13078fb10\include]]
+            },
+            license = "MIT"
+        },
+        ["xmake::assimp_5428fc7ba30140e390565669b6cddb45_release_v5.2.5_external"] = {
+            static = true,
+            syslinks = "advapi32",
+            version = "v5.2.5",
+            links = {
+                "assimp-vc143-mt",
+                "zlibstatic"
+            },
+            sysincludedirs = {
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45\include]]
+            },
+            linkdirs = {
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45\lib]]
+            },
+            libfiles = {
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45\lib\assimp-vc143-mt.lib]],
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\a\assimp\v5.2.5\5428fc7ba30140e390565669b6cddb45\lib\zlibstatic.lib]]
+            },
+            license = "BSD-3-Clause"
+        },
+        ["xmake::zlib_04bf9d8a64824100b68e5c59e579eda6_release_v1.2.13_external"] = {
+            static = true,
+            libfiles = {
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\z\zlib\v1.2.13\04bf9d8a64824100b68e5c59e579eda6\lib\zlib.lib]]
+            },
+            links = {
+                "zlib"
+            },
+            version = "v1.2.13",
+            sysincludedirs = {
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\z\zlib\v1.2.13\04bf9d8a64824100b68e5c59e579eda6\include]]
+            },
+            linkdirs = {
+                [[C:\Users\Liameitimie\AppData\Local\.xmake\packages\z\zlib\v1.2.13\04bf9d8a64824100b68e5c59e579eda6\lib]]
+            }
+        }
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\cl.exe]]
+    },
+    find_programver_fetch_package_xmake = {
+        ["C:\\Program Files\\CMake\\bin\\cmake"] = "3.24.1"
+    },
+    find_program_cuda_arch_x64_plat_windows_checktoolcu = {
+        ["C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc"] = [[C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe]]
+    },
+    find_program = {
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\cl.exe]],
+        zig = false,
+        dmd = false,
+        ping = "ping",
+        ["C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc"] = [[C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc]],
+        ["7z"] = [[C:\Program Files\xmake\winenv\bin\7z]],
+        ldc2 = false,
+        unzip = false,
+        gzip = false,
+        gdc = false,
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\cl.exe]],
+        ["C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin\\nvcc"] = false,
+        git = "git"
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolsh = {
+        ["link.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe]]
+    },
+    ["detect.sdks.find_cuda"] = {
+        cuda = {
+            includedirs = {
+                [[C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include]]
+            },
+            msbuildextensionsdir = [[C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\extras\visual_studio_integration\MSBuildExtensions]],
+            version = "11.7",
+            sdkdir = [[C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7]],
+            bindir = [[C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin]],
+            linkdirs = {
+                [[C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\lib\x64]]
+            }
+        }
+    }
+}

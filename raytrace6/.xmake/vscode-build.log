@@ -1,0 +1,21 @@
+[ 27%]: cache compiling.debug src\cameras\pinhole.cpp
+[ 27%]: cache compiling.debug src\integrators\path.cpp
+[ 27%]: cache compiling.debug src\shapes\mesh.cpp
+[ 27%]: cache compiling.debug src\accel\accel.cpp
+[ 27%]: cache compiling.debug src\base\pipeline.cpp
+[ 27%]: cache compiling.debug src\base\scene.cpp
+[ 27%]: cache compiling.debug src\rt.cpp
+[ 31%]: cache compiling.debug src\base\scene_node.cpp
+[ 27%]: compiling.debug src\shapes\mesh.cu
+error: C:\Cpp\graphics\Learning\cuda\raytrace\raytrace6\src\accel\accel.h(17): error: namespace "std" has no member "span"
+C:\Cpp\graphics\Learning\cuda\raytrace\raytrace6\src\accel\accel.h(17): error: this declaration has no storage class or type specifier
+C:\Cpp\graphics\Learning\cuda\raytrace\raytrace6\src\accel\accel.h(17): error: expected a ";"
+C:\Cpp\graphics\Learning\cuda\raytrace\raytrace6\src\accel\accel.h(18): error: namespace "std" has no member "span"
+C:\Cpp\graphics\Learning\cuda\raytrace\raytrace6\src\accel\accel.h(18): error: this declaration has no storage class or type specifier
+C:\Cpp\graphics\Learning\cuda\raytrace\raytrace6\src\accel\accel.h(18): error: expected a ";"
+C:\Cpp\graphics\Learning\cuda\raytrace\raytrace6\src\shapes\mesh.cu(19): error: identifier "span" is undefined
+C:\Cpp\graphics\Learning\cuda\raytrace\raytrace6\src\shapes\mesh.cu(19): error: type name is not allowed
+C:\Cpp\graphics\Learning\cuda\raytrace\raytrace6\src\shapes\mesh.cu(20): error: type name is not allowed
+9 errors detected in the compilation of "src/shapes/mesh.cu".
+mesh.cu
+  > in src\shapes\mesh.cu

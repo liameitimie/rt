@@ -1,0 +1,23 @@
+{
+    cmdlines = {
+        "xmake -w",
+        [[xmake lua "C:\\\\Program Files\\\\xmake\\\\actions\\\\build\\\\statistics.lua"]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\archs.lua windows]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\config.lua]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\update_intellisense.lua .vscode]],
+        [[xmake f -p windows -a x64 -m debug -o c:\C++\graphics\Learning\cuda\raytrace\test_xmake\test4/build]],
+        "xmake -w",
+        [[xmake lua "C:\\\\Program Files\\\\xmake\\\\actions\\\\build\\\\cleaner.lua"]],
+        "xmake -w",
+        "xmake -w",
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\targets.lua]],
+        "xmake run test",
+        "xmake build -w test",
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\explorer.lua]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\config.lua]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\update_intellisense.lua .vscode]],
+        [[xmake l c:\Users\Liameitimie\.vscode\extensions\tboox.xmake-vscode-1.9.4\assets\targets.lua]],
+        "xmake -w",
+        "xmake -w"
+    }
+}

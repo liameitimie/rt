@@ -1,0 +1,14 @@
+{
+    mtimes = {
+        ["xmake.lua"] = 1676970897,
+        ["a\\xmake.lua"] = 1676970617,
+        ["b\\xmake.lua"] = 1676971083
+    },
+    options = {
+        arch = "x64",
+        buildir = [[c:\C++\graphics\Learning\cuda\raytrace\test_xmake\test4/build]],
+        plat = "windows",
+        mode = "debug"
+    },
+    recheck = false
+}

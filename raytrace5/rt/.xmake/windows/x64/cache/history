@@ -1,0 +1,21 @@
+{
+    cmdlines = {
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake l find_package cuda",
+        "xmake l find_package cuda",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake",
+        "xmake project -k vsxmake"
+    }
+}
